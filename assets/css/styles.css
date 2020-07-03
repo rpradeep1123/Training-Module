@@ -85,10 +85,17 @@
 .page{
   display: none;
 }
+.page img{
+  width:100%;
+  height: fit-content;
+}
 #timer span{
   font-size:10px;
   font-weight: bold;
 }
 .fixedheight{
   overflow-y: auto;
+}
+#accordion-1 .card-body::after, .card-footer::after, .card-header::after{
+  display:none
 }
